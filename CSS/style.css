@@ -1,0 +1,189 @@
+.primary-color{
+    color: #fff;
+}
+.secondary-color{
+    color: #ff8e40;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* word-spacing: 2px; */
+    color: #8B8B8B;
+    /* code by sneha */
+}
+
+ nav .navbar-nav li a{
+     color: white !important;
+ }
+
+ nav .navbar-nav li a:hover{
+    color: #ff8e40 !important;
+}
+
+nav .navbar-nav li a:active{
+    color: #ff8e40 !important;
+}
+
+ .navbar-brand{
+  border-top: 2px solid #ff8e40;
+  border-bottom: 2px solid #ff8e40;
+ }
+
+.navbar-nav > li {
+    padding-right: 1.5rem;
+    padding-left: .5rem;
+}
+
+
+
+#cover{
+    background-image:  url("../Images/cover.jpg");
+    height: 100vh;
+    max-width: 100%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container-fluid {
+    position: absolute;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .align{
+    margin-top: 200px ;
+    text-align: center;
+    margin-bottom: 200px ;
+}
+
+.fontBold{
+    font-weight: bold;
+}
+
+.para-content{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.middle-content{
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.priceBox{
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: black;
+    /* height: 163px;
+    width: 250px; */
+}
+
+.tableBox{
+    border: 2px solid black;
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+    
+}
+
+.footer{
+    padding-top: 20px;
+    background-color: black;
+    font-size: 16.48pt;
+    color : white;
+    height: auto;
+    padding: 50px;
+    
+}
+
+.smallConent{
+    margin-top: 20px;
+}
+
+.contentBox{
+    padding : 30px
+}
+
+.tableBoxContent{
+    padding: 10px;
+}
+
+.footer a {
+    text-decoration: none; 
+    color: white;
+  }
+  
+  .footer ul li {
+      list-style-type:none;
+      margin-bottom: 10px;
+      
+    }
+
+/* media queries */
+
+@media only screen and (max-width: 767px) and (min-width: 300px) {
+    .display-block{
+        display: block;
+    }
+    .mt-20{
+        margin-top: 20px;
+    }
+    .mb-20{
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 300px) {
+    .display-block{
+        display: block;
+    }
+    .mt-10{
+        margin-top: 20px;
+    }
+    .mb-20{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+    .display-none{
+        display: none;
+    }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+    .display-none{
+        display: none;
+    }
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+    .display-none{
+        display: none;
+    }  
+}
+@media (max-width: 1199px) and (min-width: 1024px) {
+    .display-none{
+        display: none;
+    }  
+}
+@media only screen and (min-width: 1025px) {
+    .display-none{
+        display: none;
+    }  
+}
+@media only screen and (min-width: 1199px) {
+    .display-none{
+        display: none;
+    }  
+}
+
